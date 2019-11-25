@@ -17,7 +17,7 @@ end
 
 def parse 
   binding.pry
-  @email.split.collect {|x| x.split(",")
+  @email.split.collect {|x| x.split(",")}
   .flatten.uniq
 end 
 
